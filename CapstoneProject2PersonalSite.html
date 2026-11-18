@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Gautam B., Graphic Designer and Document Editor specializing in Adobe Creative Cloud, editorial layout, brand identity, and technical documentation.">
+  <title>Gautam B. — Graphic Designer &amp; Document Editor</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Fraunces for Editorial Serif Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Accessible Keyboard Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =====================================================================
+       SITE HEADER & NAVIGATION (Pure CSS Responsive Toggle)
+       ===================================================================== -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#top" class="brand" aria-label="Gautam B. Home">
+        <span class="brand__mark" aria-hidden="true">G</span>
+        <span>Gautam B.</span>
+      </a>
+
+      <!-- Zero-JavaScript Mobile Menu Checkbox Hack -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span class="nav-toggle-label__bars"></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Primary Navigation">
+        <a href="#hero" class="site-nav__link">Overview</a>
+        <a href="#projects" class="site-nav__link">Selected Work</a>
+        <a href="#resume" class="site-nav__link">Resume</a>
+        <a href="#about" class="site-nav__link">About Me</a>
+        <a href="#contact" class="site-nav__link site-nav__cta">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ===================================================================
+         1. HERO SECTION
+         =================================================================== -->
+    <section id="hero" class="hero" aria-labelledby="hero-heading">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <span class="hero__badge-dot" aria-hidden="true"></span>
+            <span>Electronic City, Bengaluru &bull; Winnipeg, Canada Alumni</span>
+          </div>
+
+          <h1 id="hero-heading" class="hero__title">
+            Precision Graphic Design &amp; <span class="hero__title-accent">Editorial Craft.</span>
+          </h1>
+
+          <p class="hero__lead">
+            Hello, I am <strong>Gautam B.</strong> — a dedicated Graphic Designer and Document Editor with complete mastery across every <strong>Adobe Creative Cloud</strong> application. Backed by <strong>Honors in Graphic Communication &amp; Graphic Design</strong> from <strong>The University of Manitoba</strong> and <strong>Red River College, Winnipeg</strong>, as well as completing <strong>all graphic design courses on Udemy</strong>, I bridge bold visual storytelling with technical editorial precision.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">Explore Portfolio</a>
+            <a href="#resume" class="btn btn--secondary">View Full Resume</a>
+          </div>
+
+          <div class="hero__metrics" aria-label="Career Highlights">
+            <div>
+              <div class="metric__value">7.5+ Yrs</div>
+              <div class="metric__label">Design &amp; Editorial Experience</div>
+            </div>
+            <div>
+              <div class="metric__value">100%</div>
+              <div class="metric__label">Adobe Creative Cloud Mastery</div>
+            </div>
+            <div>
+              <div class="metric__value">Honors</div>
+              <div class="metric__label">U of Manitoba &amp; Red River</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Portfolio Feature Card -->
+        <aside class="hero__card" aria-label="Design Discipline Showcase">
+          <div class="hero__artwork">
+            <!-- Accessible Geometric Editorial SVG Illustration -->
+            <svg viewBox="0 0 420 290" role="img" aria-label="Abstract Swiss-inspired graphic design composition featuring geometric grids, golden ratio arcs, and Adobe Creative Cloud color swatches">
+              <defs>
+                <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#ea580c" />
+                  <stop offset="100%" stop-color="#c2410c" />
+                </linearGradient>
+                <linearGradient id="heroGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#1e3a8a" />
+                  <stop offset="100%" stop-color="#3b82f6" />
+                </linearGradient>
+              </defs>
+              <!-- Grid lines -->
+              <g stroke="#3f3f46" stroke-width="1" opacity="0.6">
+                <line x1="0" y1="72" x2="420" y2="72" />
+                <line x1="0" y1="145" x2="420" y2="145" />
+                <line x1="0" y1="218" x2="420" y2="218" />
+                <line x1="105" y1="0" x2="105" y2="290" />
+                <line x1="210" y1="0" x2="210" y2="290" />
+                <line x1="315" y1="0" x2="315" y2="290" />
+              </g>
+              <!-- Geometric Forms -->
+              <circle cx="145" cy="145" r="88" fill="url(#heroGrad1)" />
+              <rect x="210" y="57" width="135" height="176" rx="18" fill="url(#heroGrad2)" opacity="0.92" />
+              <circle cx="277" cy="145" r="44" fill="#faf8f5" />
+              <path d="M75 233 L145 95 L215 233 Z" fill="none" stroke="#faf8f5" stroke-width="3.5" />
+              <!-- Registration Marks -->
+              <circle cx="32" cy="32" r="8" fill="none" stroke="#a1a1aa" stroke-width="1.5" />
+              <line x1="20" y1="32" x2="44" y2="32" stroke="#a1a1aa" stroke-width="1.5" />
+              <line x1="32" y1="20" x2="32" y2="44" stroke="#a1a1aa" stroke-width="1.5" />
+              <text x="388" y="268" text-anchor="end" fill="#a1a1aa" font-family="sans-serif" font-size="11" font-weight="700" letter-spacing="2">CMYK / RGB</text>
+            </svg>
+          </div>
+
+          <div class="hero__card-caption">
+            <div>
+              <div class="hero__card-title">Multi-Disciplinary Visual Communicator</div>
+              <div class="hero__card-sub">Print, Digital, Brand Identity &amp; Technical Manuals</div>
+            </div>
+          </div>
+
+          <div class="adobe-pills" aria-label="Adobe Creative Cloud Suite Proficiency">
+            <span class="adobe-pill">Photoshop</span>
+            <span class="adobe-pill">Illustrator</span>
+            <span class="adobe-pill">InDesign</span>
+            <span class="adobe-pill">Acrobat Pro</span>
+            <span class="adobe-pill">Premiere Pro</span>
+            <span class="adobe-pill">After Effects</span>
+            <span class="adobe-pill">Adobe XD</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         2. PORTFOLIO / PAST PROJECTS SECTION
+         =================================================================== -->
+    <section id="projects" class="section section--alt" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">Selected Works</span>
+          <h2 id="projects-heading" class="section-title">Design &amp; Editorial Portfolio</h2>
+          <p class="section-subtitle">
+            A curated showcase of visual communication, technical publication layout, healthcare awareness campaigns, and bespoke illustration created across Canada and India.
+          </p>
+        </header>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <svg viewBox="0 0 400 275" role="img" aria-label="Technical engineering documentation layout cover design for power protection relay systems">
+                <rect width="400" height="275" fill="#1e293b" />
+                <rect x="28" y="26" width="160" height="223" rx="6" fill="#ffffff" />
+                <rect x="28" y="26" width="160" height="58" rx="6" fill="#1e3a8a" />
+                <rect x="44" y="102" width="110" height="10" rx="3" fill="#1e293b" />
+                <rect x="44" y="120" width="128" height="6" rx="2" fill="#94a3b8" />
+                <rect x="44" y="132" width="120" height="6" rx="2" fill="#94a3b8" />
+                <rect x="44" y="144" width="124" height="6" rx="2" fill="#94a3b8" />
+                <!-- Technical Schematic Diagram -->
+                <rect x="212" y="45" width="160" height="185" rx="10" fill="#0f172a" stroke="#334155" stroke-width="2" />
+                <path d="M235 135 L265 135 L278 95 L296 175 L314 115 L326 135 L350 135" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="235" cy="135" r="5" fill="#f97316" />
+                <circle cx="350" cy="135" r="5" fill="#f97316" />
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Technical Editorial</span>
+              <h3 class="project-card__title">Power Protection Relay Manuals &amp; Schematics</h3>
+              <p class="project-card__desc">
+                Structured multi-chapter engineering manuals, vector circuit diagrams, and standardized document templates for ERLPhase Power Technologies in Winnipeg and Bengaluru.
+              </p>
+              <div class="project-card__tools">
+                <span>InDesign</span>
+                <span>Illustrator</span>
+                <span>Acrobat Pro</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <svg viewBox="0 0 400 275" role="img" aria-label="Inclusive community awareness poster and annual report design featuring warm organic shapes">
+                <rect width="400" height="275" fill="#fef3c7" />
+                <circle cx="130" cy="138" r="85" fill="#ea580c" opacity="0.9" />
+                <circle cx="220" cy="120" r="70" fill="#0d9488" opacity="0.85" />
+                <circle cx="265" cy="175" r="55" fill="#1e3a8a" opacity="0.88" />
+                <rect x="75" y="195" width="250" height="44" rx="22" fill="#ffffff" />
+                <rect x="105" y="213" width="190" height="8" rx="4" fill="#18181b" />
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Brand &amp; Print Campaign</span>
+              <h3 class="project-card__title">Community Inclusion &amp; Donor Reports</h3>
+              <p class="project-card__desc">
+                Six-and-a-half years of accessible print collateral, event branding, newsletters, and illustrated annual reports created for St. Amant in Winnipeg, Manitoba.
+              </p>
+              <div class="project-card__tools">
+                <span>InDesign</span>
+                <span>Photoshop</span>
+                <span>Illustrator</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <svg viewBox="0 0 400 275" role="img" aria-label="Public health blood donation drive campaign poster with bold crimson heart and typography">
+                <rect width="400" height="275" fill="#fff1f2" />
+                <path d="M200 225 C120 170 90 120 125 82 C152 54 188 72 200 96 C212 72 248 54 275 82 C310 120 280 170 200 225 Z" fill="#e11d48" />
+                <path d="M155 132 L182 132 L192 108 L206 155 L218 124 L245 124" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Healthcare Awareness</span>
+              <h3 class="project-card__title">Voluntary Blood Donation Drive Identity</h3>
+              <p class="project-card__desc">
+                High-impact posters, donor recognition certificates, social media graphics, and educational brochures designed for Rotary Blood Bank in Bengaluru.
+              </p>
+              <div class="project-card__tools">
+                <span>Photoshop</span>
+                <span>Illustrator</span>
+                <span>InDesign</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <svg viewBox="0 0 400 275" role="img" aria-label="Honors Capstone editorial magazine spread showcasing Swiss grid typography and custom vector art">
+                <rect width="400" height="275" fill="#27272a" />
+                <rect x="40" y="32" width="158" height="211" fill="#faf8f5" />
+                <rect x="202" y="32" width="158" height="211" fill="#f4f4f5" />
+                <rect x="56" y="50" width="90" height="16" fill="#c2410c" />
+                <rect x="56" y="76" width="124" height="7" fill="#18181b" />
+                <rect x="56" y="90" width="115" height="7" fill="#71717a" />
+                <rect x="56" y="104" width="120" height="7" fill="#71717a" />
+                <circle cx="281" cy="137" r="54" fill="#c2410c" />
+                <rect x="235" y="125" width="92" height="24" fill="#18181b" />
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Capstone Project 1</span>
+              <h3 class="project-card__title">Honors Graphic Communication Monograph</h3>
+              <p class="project-card__desc">
+                Comprehensive editorial publication exploring typographic hierarchy, grid systems, and cross-cultural visual identity from The University of Manitoba &amp; Red River College.
+              </p>
+              <div class="project-card__tools">
+                <span>InDesign</span>
+                <span>Illustrator</span>
+                <span>Typography</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <svg viewBox="0 0 400 275" role="img" aria-label="Custom vector illustration series blending Indian classical rhythm instruments with modern geometric art">
+                <rect width="400" height="275" fill="#312e81" />
+                <circle cx="150" cy="145" r="64" fill="#f59e0b" />
+                <circle cx="150" cy="145" r="44" fill="#fef3c7" />
+                <circle cx="150" cy="145" r="18" fill="#18181b" />
+                <circle cx="262" cy="155" r="48" fill="#ea580c" />
+                <circle cx="262" cy="155" r="32" fill="#ffedd5" />
+                <circle cx="262" cy="155" r="13" fill="#18181b" />
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Vector Illustration</span>
+              <h3 class="project-card__title">Rhythm &amp; Form Illustration Series</h3>
+              <p class="project-card__desc">
+                Bespoke digital illustrations inspired by Indian classical percussion (Tabla) and European architectural geometry, crafted with precision Bezier curves.
+              </p>
+              <div class="project-card__tools">
+                <span>Illustrator</span>
+                <span>Photoshop</span>
+                <span>Fresco</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card">
+            <div class="project-card__media">
+              <svg viewBox="0 0 400 275" role="img" aria-label="Interactive UI wireframe and digital design system showcase">
+                <rect width="400" height="275" fill="#ecfdf5" />
+                <rect x="48" y="34" width="304" height="207" rx="14" fill="#ffffff" stroke="#a7f3d0" stroke-width="2" />
+                <rect x="48" y="34" width="304" height="34" rx="14" fill="#065f46" />
+                <circle cx="70" cy="51" r="5" fill="#34d399" />
+                <circle cx="86" cy="51" r="5" fill="#fbbf24" />
+                <circle cx="102" cy="51" r="5" fill="#f87171" />
+                <rect x="74" y="90" width="115" height="125" rx="8" fill="#d1fae5" />
+                <rect x="206" y="90" width="120" height="55" rx="8" fill="#059669" />
+                <rect x="206" y="160" width="120" height="55" rx="8" fill="#e2e8f0" />
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__tag">Digital &amp; Motion</span>
+              <h3 class="project-card__title">Brand Style Guides &amp; Motion Graphics</h3>
+              <p class="project-card__desc">
+                End-to-end brand identity systems, UI prototypes, and animated promotional assets integrating the entire Adobe Creative Cloud ecosystem.
+              </p>
+              <div class="project-card__tools">
+                <span>Adobe XD</span>
+                <span>After Effects</span>
+                <span>Premiere Pro</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         3. RESUME SECTION (Experience, Education, Skills & Capstone Link)
+         =================================================================== -->
+    <section id="resume" class="section" aria-labelledby="resume-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="eyebrow">Curriculum Vitae</span>
+          <h2 id="resume-heading" class="section-title">Experience, Education &amp; Skills</h2>
+          <p class="section-subtitle">
+            Over seven years of international graphic design and document editing experience across Winnipeg, Canada and Bengaluru, India.
+          </p>
+        </header>
+
+        <!-- Capstone Project 1 Callout Banner -->
+        <aside class="resume-banner" aria-label="Capstone Project 1 Highlight">
+          <div>
+            <h3 class="resume-banner__title">Featured Academic Milestone: Capstone Project 1</h3>
+            <p class="resume-banner__text">
+              Explore my honors editorial layout, typographic grid study, and visual communication system from Winnipeg.
+            </p>
+          </div>
+          <a href="#projects" class="btn btn--primary">View Capstone Project 1 &rarr;</a>
+        </aside>
+
+        <div class="resume-grid">
+          <!-- Left Column: Work Experience Timeline -->
+          <div>
+            <h3 class="resume-block__heading">Work Experience</h3>
+
+            <div class="timeline">
+              <!-- Role 1: Current -->
+              <article class="timeline-item">
+                <div class="timeline-item__header">
+                  <h4 class="timeline-item__role">Graphic Designer &amp; Document Editor</h4>
+                  <span class="timeline-item__duration">Current (~4 Months)</span>
+                </div>
+                <div class="timeline-item__org">
+                  ERLPhase Power Technologies (Phase Power Protection) &mdash; Electronic City, Bengaluru, India
+                </div>
+                <p class="timeline-item__desc">
+                  Designing technical visual assets, formatting complex engineering user manuals, refining relay protection documentation, and maintaining strict brand and editorial standards across product literature.
+                </p>
+              </article>
+
+              <!-- Role 2 -->
+              <article class="timeline-item">
+                <div class="timeline-item__header">
+                  <h4 class="timeline-item__role">Graphic Designer</h4>
+                  <span class="timeline-item__duration">6.5 Months</span>
+                </div>
+                <div class="timeline-item__org">
+                  Rotary Blood Bank &mdash; Bengaluru, India
+                </div>
+                <p class="timeline-item__desc">
+                  Created public health awareness campaigns, voluntary blood donation drive posters, donor certificates, informational brochures, and digital outreach visuals.
+                </p>
+              </article>
+
+              <!-- Role 3 -->
+              <article class="timeline-item">
+                <div class="timeline-item__header">
+                  <h4 class="timeline-item__role">Graphic Designer &amp; Text Editor</h4>
+                  <span class="timeline-item__duration">5 Months</span>
+                </div>
+                <div class="timeline-item__org">
+                  ERLPhase Power Technologies &mdash; Winnipeg, Manitoba, Canada
+                </div>
+                <p class="timeline-item__desc">
+                  Produced clear technical illustrations, edited engineering documentation for clarity and consistency, and collaborated with hardware/software engineers on product datasheets.
+                </p>
+              </article>
+
+              <!-- Role 4 -->
+              <article class="timeline-item">
+                <div class="timeline-item__header">
+                  <h4 class="timeline-item__role">Graphic Designer</h4>
+                  <span class="timeline-item__duration">6.5 Years</span>
+                </div>
+                <div class="timeline-item__org">
+                  St. Amant &mdash; Winnipeg, Manitoba, Canada
+                </div>
+                <p class="timeline-item__desc">
+                  Led visual communication and print/digital design initiatives for over six and a half years, producing accessible educational materials, annual reports, event branding, signage, and custom illustrations.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Right Column: Education & Core Skills -->
+          <div>
+            <h3 class="resume-block__heading">Education &amp; Certifications</h3>
+
+            <div class="edu-stack">
+              <article class="edu-card">
+                <span class="edu-card__badge">Honors Degree / Diploma</span>
+                <h4 class="edu-card__degree">Honors in Graphic Communication &amp; Graphic Design</h4>
+                <p class="edu-card__school">The University of Manitoba &amp; Red River College &mdash; Winnipeg, Manitoba, Canada</p>
+              </article>
+
+              <article class="edu-card">
+                <span class="edu-card__badge">Continuous Mastery</span>
+                <h4 class="edu-card__degree">Completed All Graphic Design Courses</h4>
+                <p class="edu-card__school">Udemy &mdash; Comprehensive Certification Across Print, Digital, Branding, UI &amp; Motion Design</p>
+              </article>
+            </div>
+
+            <h3 class="resume-block__heading">Core Competencies</h3>
+
+            <div class="skills-group">
+              <div class="skills-group__sub">Adobe Creative Cloud Suite (Complete Mastery)</div>
+              <div class="skill-tags">
+                <span class="skill-tag skill-tag--highlight">Adobe Photoshop</span>
+                <span class="skill-tag skill-tag--highlight">Adobe Illustrator</span>
+                <span class="skill-tag skill-tag--highlight">Adobe InDesign</span>
+                <span class="skill-tag skill-tag--highlight">Adobe Acrobat Pro</span>
+                <span class="skill-tag skill-tag--highlight">Premiere Pro</span>
+                <span class="skill-tag skill-tag--highlight">After Effects</span>
+                <span class="skill-tag skill-tag--highlight">Adobe XD</span>
+                <span class="skill-tag skill-tag--highlight">Lightroom &amp; Bridge</span>
+              </div>
+
+              <div class="skills-group__sub">Design &amp; Editorial Disciplines</div>
+              <div class="skill-tags">
+                <span class="skill-tag">Technical Document Editing</span>
+                <span class="skill-tag">Editorial &amp; Book Layout</span>
+                <span class="skill-tag">Brand Identity Systems</span>
+                <span class="skill-tag">Typography &amp; Grid Systems</span>
+                <span class="skill-tag">Vector &amp; Hand Illustration</span>
+                <span class="skill-tag">Print Pre-Press Production</span>
+                <span class="skill-tag">Semantic HTML5 &amp; CSS3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         4. ABOUT ME SECTION
+         =================================================================== -->
+    <section id="about" class="section section--alt" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div class="about-story">
+          <span class="eyebrow">About Me</span>
+          <h2 id="about-heading" class="section-title">Unwavering Dedication to Every Craft I Undertake</h2>
+
+          <p>
+            Whether I am refining a multi-hundred-page technical relay manual at <strong>ERLPhase Power Technologies</strong>, crafting a community awareness campaign, or sketching a brand mark from scratch, I bring <strong>complete, undivided dedication</strong> to whatever I am doing.
+          </p>
+
+          <p>
+            My formal training with Honors in Graphic Communication and Graphic Design in <strong>Winnipeg, Canada</strong> taught me the discipline of Swiss-inspired typographic structure, while my work in <strong>Bengaluru, India</strong> has sharpened my versatility across fast-paced engineering and healthcare environments.
+          </p>
+
+          <p>
+            Outside the studio, my creativity is fueled by rhythm, strategy, and continuous curiosity—from the intricate percussive cycles of playing the <strong>Tabla</strong> to the tactical beauty of <strong>European Football</strong>.
+          </p>
+
+          <blockquote class="dedication-callout">
+            <p class="dedication-callout__quote">
+              &ldquo;Great design is never accidental—it is the result of total dedication to clarity, structure, and human connection.&rdquo;
+            </p>
+          </blockquote>
+        </div>
+
+        <aside class="interests-panel" aria-labelledby="interests-heading">
+          <h3 id="interests-heading" class="interests-panel__title">Interests &amp; Passions</h3>
+          <ul class="interests-list">
+            <li class="interest-item">
+              <span class="interest-item__icon" aria-hidden="true">&#9998;</span>
+              <span>Drawing &amp; Illustrating</span>
+            </li>
+            <li class="interest-item">
+              <span class="interest-item__icon" aria-hidden="true">&#127912;</span>
+              <span>Designing</span>
+            </li>
+            <li class="interest-item">
+              <span class="interest-item__icon" aria-hidden="true">&#128187;</span>
+              <span>Adobe Creative Cloud</span>
+            </li>
+            <li class="interest-item">
+              <span class="interest-item__icon" aria-hidden="true">&#129345;</span>
+              <span>Tabla Playing</span>
+            </li>
+            <li class="interest-item">
+              <span class="interest-item__icon" aria-hidden="true">&#9917;</span>
+              <span>European Football</span>
+            </li>
+            <li class="interest-item">
+              <span class="interest-item__icon" aria-hidden="true">&#127925;</span>
+              <span>Music</span>
+            </li>
+            <li class="interest-item">
+              <span class="interest-item__icon" aria-hidden="true">&#128214;</span>
+              <span>Reading</span>
+            </li>
+            <li class="interest-item">
+              <span class="interest-item__icon" aria-hidden="true">&#128196;</span>
+              <span>Editorial Typography</span>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         5. CONTACT ME SECTION (Zero-JS Accessible Mailto Form)
+         =================================================================== -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-card">
+          <div>
+            <span class="eyebrow">Get In Touch</span>
+            <h2 id="contact-heading" class="section-title">Let&rsquo;s Collaborate</h2>
+            <p class="section-subtitle">
+              Available for graphic design, brand identity, editorial layout, and technical document editing inquiries. Reach out directly via email or use the quick message form.
+            </p>
+
+            <ul class="contact-details__list">
+              <li class="contact-details__item">
+                <span class="contact-details__label">Direct Email</span>
+                <a href="mailto:gautam.b1306@gmail.com" class="contact-details__value">
+                  gautam.b1306@gmail.com
+                </a>
+              </li>
+              <li class="contact-details__item">
+                <span class="contact-details__label">Current Location</span>
+                <span class="contact-details__value" style="color: var(--color-ink);">
+                  Electronic City, Bengaluru, Karnataka, India
+                </span>
+              </li>
+              <li class="contact-details__item">
+                <span class="contact-details__label">International Background</span>
+                <span class="contact-details__value" style="color: var(--color-ink);">
+                  Winnipeg, Manitoba, Canada
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pure HTML Mailto Form (Zero JavaScript Required) -->
+          <form class="contact-form" action="mailto:gautam.b1306@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="sender-name" class="form-label">Your Name</label>
+              <input type="text" id="sender-name" name="Name" class="form-input" placeholder="e.g., Ananya Sharma" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-email" class="form-label">Your Email Address</label>
+              <input type="email" id="sender-email" name="Email" class="form-input" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-subject" class="form-label">Project or Inquiry Type</label>
+              <input type="text" id="sender-subject" name="Subject" class="form-input" placeholder="Brand Identity, Editorial Layout, Technical Editing..." required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-message" class="form-label">Message</label>
+              <textarea id="sender-message" name="Message" class="form-textarea" placeholder="Tell me about your project timeline and design goals..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary">Send Email to Gautam B.</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       SITE FOOTER
+       ===================================================================== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <strong>Gautam B.</strong> &mdash; Graphic Designer &amp; Document Editor. Built with pure semantic HTML5 &amp; CSS3.
+      </div>
+      <div class="site-footer__links">
+        <a href="#hero">Top</a>
+        <a href="#projects">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#about">About</a>
+        <a href="mailto:gautam.b1306@gmail.com">gautam.b1306@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
